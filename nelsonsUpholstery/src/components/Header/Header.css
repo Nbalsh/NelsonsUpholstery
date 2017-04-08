@@ -1,0 +1,40 @@
+.-header {
+    display: flex;
+    flex-direction: column;
+    width: 65vw;
+    margin: auto;
+    background-color: grey;
+}
+
+.-header > .-top {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.-phoneNumber {
+    margin-left: 10px;
+    height: 20px;
+    align-self: flex-end;
+}
+
+.-mainLogo {
+    display: flex;
+    justify-content: center;
+}
+
+.-itemContainer {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.-itemContainer > .-item {
+    padding: 10px 30px;
+    background-color:lightpink;
+    margin: auto;
+}
+
+.-item > a {
+    text-decoration: none;
+    font-weight: 800;
+}
