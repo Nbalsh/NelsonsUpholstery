@@ -9,7 +9,8 @@ class Header extends Component {
           <div className='-header'>
               <div className='-top'>
                 <div className='-mainLogo'>
-                    <img src='../../../TitleImagePlaceholder.png' alt='MainLogo'/> 
+                    <img src='../../../recycleLogo.png' alt='RecycleLogo' width='200px' height='230px' /> 
+                    <img src='../../../mainLogo.png' alt='MainLogo' width='400px' height='250px'/> 
                 </div>
                 <div className='-phoneNumber'>604 940 2223</div>
               </div>

@@ -1,0 +1,118 @@
+{
+ "features": [
+     {
+        "pictures": [
+            {"src":"../../blueCouch(1).jpg"},
+            {"src":"../../blueCouch(2).jpg"},
+            {"src":"../../blueCouch(3).jpg"},
+            {"src":"../../blueCouch(4).jpg"},
+            {"src":"../../blueCouch(5).jpg"},
+            {"src":"../../blueCouch(6).jpg"}
+        ],
+        "description": "Blue Couch that was made with some Pasta",
+        "title":"Blue couch"
+     }, 
+     {
+         "pictures": [
+            {"src":"../../car.jpg"}
+        ],
+        "description": "This is the most amazing car ever",
+        "title":"Best Car"
+     },
+      {
+         "pictures": [
+            {"src":"../../floralChair (1).jpg"},
+            {"src":"../../floralChair (2).jpg"}
+        ],
+        "description": "A nice floral print",
+        "title":"Flowery Chair"
+     },
+     {
+         "pictures": [
+            {"src":"../../yellowChair.jpg"}
+        ],
+        "description": "Very Yellow",
+        "title":"Yellow Chair"
+     },
+     {
+         "pictures": [
+            {"src":"../../fingerChair.jpg"}
+        ],
+        "description": "IT's THE FINGER CHAIR",
+        "title":"Finger Chair"
+     },
+      {
+         "pictures": [
+            {"src":"../../whiteArmChair.jpg"}
+        ],
+        "description": "look at this nice white arm chair",
+        "title":"White Arm Chair"
+     },
+     {
+         "pictures": [
+            {"src":"../../whiteSofa.jpg"}
+        ],
+        "description": "look at this nice white sofa",
+        "title":"White Sofa"
+     },
+      {
+        "pictures": [
+            {"src":"../../catBed (1).jpg"},
+            {"src":"../../catBed (2).jpg"},
+            {"src":"../../catBed (3).jpg"}
+        ],
+        "description": "For some reason there is a cat bed and I'm not sure why",
+        "title":"A random cat bed"
+     },
+     {
+        "pictures": [
+            {"src":"../../squareCouch (1).jpg"},
+            {"src":"../../squareCouch (2).jpg"}
+        ],
+        "description": "The couch is square",
+        "title":"Corner Couch"
+     },
+     {
+        "pictures": [
+            {"src":"../../boat.jpg"}
+        ],
+        "description": "I'm on a boat!",
+        "title":"Boat"
+     },
+     {
+        "pictures": [
+            {"src":"../../plane.jpg"}
+        ],
+        "description": "I believe I can fly!",
+        "title":"A Plane"
+     },
+      {
+        "pictures": [
+            {"src":"../../cardboardSofa.jpg"}
+        ],
+        "description": "it stretches to different sizes",
+        "title":"Cardboard Sofa"
+     },
+      {
+        "pictures": [
+            {"src":"../../apolloSofa.jpg"}
+        ],
+        "description": "A normal couch or sofa thing",
+        "title":"A Normal Sofa"
+     },
+      {
+        "pictures": [
+            {"src":"../../brownArmChair.jpg"}
+        ],
+        "description": "This is a comfy arm chair",
+        "title":"A Comfy Arm Chair"
+     },
+      {
+        "pictures": [
+            {"src":"../../fancySofa.jpg"}
+        ],
+        "description": "A nice looking sofa",
+        "title":"A Fancy Sofa"
+     }
+ ]
+}

@@ -3,7 +3,6 @@
     flex-direction: column;
     width: 65vw;
     margin: auto;
-    background-color: grey;
 }
 
 .-header > .-top {
@@ -16,6 +15,10 @@
     margin-left: 10px;
     height: 20px;
     align-self: flex-end;
+    font-size: 32px;
+    padding-bottom: 10px;
+    font-weight: 800;
+    color: white;
 }
 
 .-mainLogo {
@@ -26,15 +29,22 @@
 .-itemContainer {
     display: flex;
     flex-wrap: nowrap;
+    background: url(/backgroundFabric.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .-itemContainer > .-item {
     padding: 10px 30px;
-    background-color:lightpink;
     margin: auto;
+    border-radius: 10px;
 }
 
 .-item > a {
     text-decoration: none;
     font-weight: 800;
+    font-size: 24px;
+    color: white;
 }

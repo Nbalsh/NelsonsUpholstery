@@ -1,6 +1,4 @@
 .-body {
-    height: 1000px;
-    background-color: lime;
     max-width: 65vw;
     display: flex;
     margin: auto;

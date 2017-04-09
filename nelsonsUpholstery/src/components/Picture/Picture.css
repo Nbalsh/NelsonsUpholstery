@@ -1,0 +1,45 @@
+.-fullScreenContainer {
+    background:rgba(255,255,255,0.7);
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    position: fixed;
+}
+
+.-fullScreenPic {
+    position: fixed;
+    max-height: 800px;
+    max-width: 1000px;
+    margin: auto;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+}
+
+.-fullScreenPic > img {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.-picture {
+    max-width: 300px;
+    max-height: 300px;
+    background-color: white;
+    margin: 5px;
+    padding: 10px;
+}
+
+.-picture img {
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    border: solid 1px #ccc;
+}
+
+.-picture img:hover {
+    border: solid 1px #777;
+}
+

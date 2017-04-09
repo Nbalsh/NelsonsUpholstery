@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './Body.css';
+import Gallery from '../Gallery/Gallery';
 
 import { Route, Link } from 'react-router-dom'
 
@@ -21,11 +22,7 @@ const Home = () => (
     <h2>Home</h2>
   </div>
 )
-const Gallery = () => (
-  <div>
-    <h2>Gallery</h2>
-  </div>
-)
+
 const Contact = () => (
   <div>
     <h2>Contact</h2>
