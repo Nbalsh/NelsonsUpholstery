@@ -9,6 +9,11 @@
             {"src":"../../blueCouch(5).jpg"},
             {"src":"../../blueCouch(6).jpg"}
         ],
+        "beforePictures": [
+            {"src":"../../catBed (1).jpg"},
+            {"src":"../../catBed (2).jpg"},
+            {"src":"../../catBed (3).jpg"}
+        ],
         "description": "Blue Couch that was made with some Pasta",
         "title":"Blue couch"
      }, 

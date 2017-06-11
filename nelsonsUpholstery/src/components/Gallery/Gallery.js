@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './Gallery.css';
-import Picture from '../Picture/Picture';
 
 const galleryData = require('../../gallery.json');
 
@@ -42,6 +41,9 @@ class Gallery extends Component {
     }
 
     renderItemArea (item, key) {
+        let backgroundImage = {
+            backgroundImage: 'url('+item.pictures[0].src+')'
+        };
         return (
             <div key={key} className='-pictureArea'>
                 <div className='-top'>
@@ -53,7 +55,7 @@ class Gallery extends Component {
                     </div>
                 </div>
                 <div className='-bottom'>
-                    <Picture featureItem={item} setItem={this.setSelectedThumbnail}/>
+                    <div className='-picture' style={backgroundImage} onClick={() => this.setSelectedThumbnail(item)}/>
                 </div>
             </div>
         );
@@ -75,13 +77,14 @@ class Gallery extends Component {
         : 
         null;
         return (
-            <div className='-fullScreenContainer'>
-                <div className='-fullScreenPic'>
-                    <img src={this.state.selectedThumbnailImage.src} className='-fullScreenThumbnail' alt={this.state.selectedThumbnailItem.title}/>
-                    <img src='../../../closeFullImage.svg' className='-closeFullScreenPic' onClick={this.closeFullScreenViewer}/>
+            <div className='-fullScreenView'>
+                <div className='-fullScreenContainer'>
+                    <div className='-left'>{thumbnail}</div>
+                    <div className='-right'>
+                        <img src={this.state.selectedThumbnailImage.src} className='-fullScreenThumbnail' alt={this.state.selectedThumbnailItem.title}/>
+                        <img src='../../../closeFullImage.svg' className='-closeFullScreenPic' onClick={this.closeFullScreenViewer} alt='closeButton'/>
+                    </div>
                 </div>
-                
-                {thumbnail}
             </div>
         );
     }

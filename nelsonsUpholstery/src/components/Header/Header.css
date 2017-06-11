@@ -29,11 +29,7 @@
 .-itemContainer {
     display: flex;
     flex-wrap: nowrap;
-    background: url(/backgroundFabric.jpg) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    background-color: #005532;
 }
 
 .-itemContainer > .-item {

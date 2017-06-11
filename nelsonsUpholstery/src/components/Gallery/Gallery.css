@@ -34,7 +34,7 @@
     font-size: 20px;
 }
 
-.-fullScreenContainer {
+.-fullScreenView {
     background:rgba(255,255,255,0.7);
     width: 100vw;
     height: 100vh;
@@ -43,18 +43,30 @@
     position: fixed;
 }
 
-.-fullScreenPic {
+.-fullScreenContainer {
     max-height: 650px;
     max-width: 800px;
     margin: auto;
     margin-top: 5vh;
     display: flex;
+} 
+
+.-fullScreenContainer > .-right {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
 }
 
-.-thumbnailContainer {
-    max-width: 600px;
+.-fullScreenContainer > .-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.-fullScreenContainer > .-left >.-thumbnailContainer {
+    width: 120px;
     margin: auto;
     display: flex;
+    flex-direction: column;
 }
 
 .-thumbnailPictureContainer {
@@ -65,15 +77,22 @@
 .-fullScreenThumbnail {
     max-width: 100%;
     display: block;
-    margin: auto;
+    margin-bottom: auto;
+}
+
+.-pictureArea > .-bottom {
+    width: 400px;
+    height: 400px;
 }
 
 .-picture {
-    max-width: 300px;
-    max-height: 300px;
-    background-color: white;
-    margin: 5px;
-    padding: 10px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  margin: 10px;
+  background-color: white;
 }
 
 .-pictureThumbnailImage {
